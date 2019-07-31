@@ -78,7 +78,8 @@
                 {% for portfolio in portfolios.all %}
                   <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                    
+                     <img src="{% static '고래 일러스트.jpg' %}" alt="">
+    
                       <img class="card-img-top" src="{{ portfolio.image.url }}" height = 400 alt=" Card image cap">
                       <div class="card-body">
                         <h4>{{ portfolio.title }}</h4>
